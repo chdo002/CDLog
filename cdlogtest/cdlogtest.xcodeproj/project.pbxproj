@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95FDFA481F1745240080F554 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFA471F1745240080F554 /* AppDelegate.m */; };
+		95FDFA4B1F1745240080F554 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFA4A1F1745240080F554 /* ViewController.m */; };
+		95FDFA4E1F1745240080F554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FDFA4C1F1745240080F554 /* Main.storyboard */; };
+		95FDFA501F1745240080F554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FDFA4F1F1745240080F554 /* Assets.xcassets */; };
+		95FDFA531F1745240080F554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FDFA511F1745240080F554 /* LaunchScreen.storyboard */; };
+		95FDFA561F1745240080F554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFA551F1745240080F554 /* main.m */; };
+		95FDFA601F1745240080F554 /* cdlogtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFA5F1F1745240080F554 /* cdlogtestTests.m */; };
+		95FDFA6B1F1745250080F554 /* cdlogtestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFA6A1F1745250080F554 /* cdlogtestUITests.m */; };
+		95FDFA831F1745730080F554 /* CRMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFA801F17456E0080F554 /* CRMLog.m */; };
+		95FDFA841F1745730080F554 /* CRMLogManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFA821F17456E0080F554 /* CRMLogManger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95FDFA5C1F1745240080F554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95FDFA3B1F1745240080F554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95FDFA421F1745240080F554;
+			remoteInfo = cdlogtest;
+		};
+		95FDFA671F1745240080F554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95FDFA3B1F1745240080F554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95FDFA421F1745240080F554;
+			remoteInfo = cdlogtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95FDFA431F1745240080F554 /* cdlogtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cdlogtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FDFA461F1745240080F554 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95FDFA471F1745240080F554 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95FDFA491F1745240080F554 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95FDFA4A1F1745240080F554 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95FDFA4D1F1745240080F554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95FDFA4F1F1745240080F554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95FDFA521F1745240080F554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95FDFA541F1745240080F554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FDFA551F1745240080F554 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95FDFA5B1F1745240080F554 /* cdlogtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cdlogtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FDFA5F1F1745240080F554 /* cdlogtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cdlogtestTests.m; sourceTree = "<group>"; };
+		95FDFA611F1745240080F554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FDFA661F1745240080F554 /* cdlogtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cdlogtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FDFA6A1F1745250080F554 /* cdlogtestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cdlogtestUITests.m; sourceTree = "<group>"; };
+		95FDFA6C1F1745250080F554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FDFA7F1F17456E0080F554 /* CRMLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMLog.h; sourceTree = "<group>"; };
+		95FDFA801F17456E0080F554 /* CRMLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMLog.m; sourceTree = "<group>"; };
+		95FDFA811F17456E0080F554 /* CRMLogManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMLogManger.h; sourceTree = "<group>"; };
+		95FDFA821F17456E0080F554 /* CRMLogManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMLogManger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95FDFA401F1745240080F554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FDFA581F1745240080F554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FDFA631F1745240080F554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95FDFA3A1F1745230080F554 = {
+			isa = PBXGroup;
+			children = (
+				95FDFA451F1745240080F554 /* cdlogtest */,
+				95FDFA5E1F1745240080F554 /* cdlogtestTests */,
+				95FDFA691F1745240080F554 /* cdlogtestUITests */,
+				95FDFA441F1745240080F554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95FDFA441F1745240080F554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95FDFA431F1745240080F554 /* cdlogtest.app */,
+				95FDFA5B1F1745240080F554 /* cdlogtestTests.xctest */,
+				95FDFA661F1745240080F554 /* cdlogtestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95FDFA451F1745240080F554 /* cdlogtest */ = {
+			isa = PBXGroup;
+			children = (
+				95FDFA461F1745240080F554 /* AppDelegate.h */,
+				95FDFA471F1745240080F554 /* AppDelegate.m */,
+				95FDFA491F1745240080F554 /* ViewController.h */,
+				95FDFA4A1F1745240080F554 /* ViewController.m */,
+				95FDFA7E1F17456E0080F554 /* src */,
+				95FDFA4C1F1745240080F554 /* Main.storyboard */,
+				95FDFA4F1F1745240080F554 /* Assets.xcassets */,
+				95FDFA511F1745240080F554 /* LaunchScreen.storyboard */,
+				95FDFA541F1745240080F554 /* Info.plist */,
+				95FDFA551F1745240080F554 /* main.m */,
+			);
+			path = cdlogtest;
+			sourceTree = "<group>";
+		};
+		95FDFA5E1F1745240080F554 /* cdlogtestTests */ = {
+			isa = PBXGroup;
+			children = (
+				95FDFA5F1F1745240080F554 /* cdlogtestTests.m */,
+				95FDFA611F1745240080F554 /* Info.plist */,
+			);
+			path = cdlogtestTests;
+			sourceTree = "<group>";
+		};
+		95FDFA691F1745240080F554 /* cdlogtestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95FDFA6A1F1745250080F554 /* cdlogtestUITests.m */,
+				95FDFA6C1F1745250080F554 /* Info.plist */,
+			);
+			path = cdlogtestUITests;
+			sourceTree = "<group>";
+		};
+		95FDFA7E1F17456E0080F554 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				95FDFA7F1F17456E0080F554 /* CRMLog.h */,
+				95FDFA801F17456E0080F554 /* CRMLog.m */,
+				95FDFA811F17456E0080F554 /* CRMLogManger.h */,
+				95FDFA821F17456E0080F554 /* CRMLogManger.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95FDFA421F1745240080F554 /* cdlogtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FDFA6F1F1745250080F554 /* Build configuration list for PBXNativeTarget "cdlogtest" */;
+			buildPhases = (
+				95FDFA3F1F1745240080F554 /* Sources */,
+				95FDFA401F1745240080F554 /* Frameworks */,
+				95FDFA411F1745240080F554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cdlogtest;
+			productName = cdlogtest;
+			productReference = 95FDFA431F1745240080F554 /* cdlogtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95FDFA5A1F1745240080F554 /* cdlogtestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FDFA721F1745250080F554 /* Build configuration list for PBXNativeTarget "cdlogtestTests" */;
+			buildPhases = (
+				95FDFA571F1745240080F554 /* Sources */,
+				95FDFA581F1745240080F554 /* Frameworks */,
+				95FDFA591F1745240080F554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95FDFA5D1F1745240080F554 /* PBXTargetDependency */,
+			);
+			name = cdlogtestTests;
+			productName = cdlogtestTests;
+			productReference = 95FDFA5B1F1745240080F554 /* cdlogtestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95FDFA651F1745240080F554 /* cdlogtestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FDFA751F1745250080F554 /* Build configuration list for PBXNativeTarget "cdlogtestUITests" */;
+			buildPhases = (
+				95FDFA621F1745240080F554 /* Sources */,
+				95FDFA631F1745240080F554 /* Frameworks */,
+				95FDFA641F1745240080F554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95FDFA681F1745240080F554 /* PBXTargetDependency */,
+			);
+			name = cdlogtestUITests;
+			productName = cdlogtestUITests;
+			productReference = 95FDFA661F1745240080F554 /* cdlogtestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95FDFA3B1F1745240080F554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = chdo;
+				TargetAttributes = {
+					95FDFA421F1745240080F554 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					95FDFA5A1F1745240080F554 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 95FDFA421F1745240080F554;
+					};
+					95FDFA651F1745240080F554 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 95FDFA421F1745240080F554;
+					};
+				};
+			};
+			buildConfigurationList = 95FDFA3E1F1745240080F554 /* Build configuration list for PBXProject "cdlogtest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95FDFA3A1F1745230080F554;
+			productRefGroup = 95FDFA441F1745240080F554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95FDFA421F1745240080F554 /* cdlogtest */,
+				95FDFA5A1F1745240080F554 /* cdlogtestTests */,
+				95FDFA651F1745240080F554 /* cdlogtestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95FDFA411F1745240080F554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FDFA531F1745240080F554 /* LaunchScreen.storyboard in Resources */,
+				95FDFA501F1745240080F554 /* Assets.xcassets in Resources */,
+				95FDFA4E1F1745240080F554 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FDFA591F1745240080F554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FDFA641F1745240080F554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95FDFA3F1F1745240080F554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FDFA4B1F1745240080F554 /* ViewController.m in Sources */,
+				95FDFA561F1745240080F554 /* main.m in Sources */,
+				95FDFA841F1745730080F554 /* CRMLogManger.m in Sources */,
+				95FDFA481F1745240080F554 /* AppDelegate.m in Sources */,
+				95FDFA831F1745730080F554 /* CRMLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FDFA571F1745240080F554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FDFA601F1745240080F554 /* cdlogtestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FDFA621F1745240080F554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FDFA6B1F1745250080F554 /* cdlogtestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95FDFA5D1F1745240080F554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95FDFA421F1745240080F554 /* cdlogtest */;
+			targetProxy = 95FDFA5C1F1745240080F554 /* PBXContainerItemProxy */;
+		};
+		95FDFA681F1745240080F554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95FDFA421F1745240080F554 /* cdlogtest */;
+			targetProxy = 95FDFA671F1745240080F554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95FDFA4C1F1745240080F554 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FDFA4D1F1745240080F554 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95FDFA511F1745240080F554 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FDFA521F1745240080F554 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95FDFA6D1F1745250080F554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95FDFA6E1F1745250080F554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95FDFA701F1745250080F554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56W7P8272X;
+				INFOPLIST_FILE = cdlogtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.cdlogtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95FDFA711F1745250080F554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56W7P8272X;
+				INFOPLIST_FILE = cdlogtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.cdlogtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95FDFA731F1745250080F554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56W7P8272X;
+				INFOPLIST_FILE = cdlogtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.cdlogtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cdlogtest.app/cdlogtest";
+			};
+			name = Debug;
+		};
+		95FDFA741F1745250080F554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56W7P8272X;
+				INFOPLIST_FILE = cdlogtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.cdlogtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cdlogtest.app/cdlogtest";
+			};
+			name = Release;
+		};
+		95FDFA761F1745250080F554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 56W7P8272X;
+				INFOPLIST_FILE = cdlogtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.cdlogtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cdlogtest;
+			};
+			name = Debug;
+		};
+		95FDFA771F1745250080F554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 56W7P8272X;
+				INFOPLIST_FILE = cdlogtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.cdlogtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cdlogtest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95FDFA3E1F1745240080F554 /* Build configuration list for PBXProject "cdlogtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FDFA6D1F1745250080F554 /* Debug */,
+				95FDFA6E1F1745250080F554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95FDFA6F1F1745250080F554 /* Build configuration list for PBXNativeTarget "cdlogtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FDFA701F1745250080F554 /* Debug */,
+				95FDFA711F1745250080F554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95FDFA721F1745250080F554 /* Build configuration list for PBXNativeTarget "cdlogtestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FDFA731F1745250080F554 /* Debug */,
+				95FDFA741F1745250080F554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95FDFA751F1745250080F554 /* Build configuration list for PBXNativeTarget "cdlogtestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FDFA761F1745250080F554 /* Debug */,
+				95FDFA771F1745250080F554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95FDFA3B1F1745240080F554 /* Project object */;
+}
